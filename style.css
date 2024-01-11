@@ -44,9 +44,37 @@ a:hover {
     cursor: pointer;
 }
 
+
+main{
+    height: 600px;
+  background-image: url(midias/fundo2.png);
+    padding-top: 70px;
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    padding: 50px; 
+}
+
+main h1{
+    color: white;
+    font-size: 45px;
+    text-align: center
+}
+
+
+
+
+div.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 div.projetos {
     display: flex;
     justify-content: center;
+    
 }
 
 
@@ -124,4 +152,41 @@ margin-top: 55px;
     margin-top: -10px;
     box-shadow: 2px 20px 25px rgb(0, 0, 12);
     border-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: var(--cor1);
+    height: 55px;;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
 }
