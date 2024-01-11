@@ -53,6 +53,7 @@ div.projetos {
 div.h1 {
     text-align: center;
     margin-top: 10px;
+    font-size: 25px;
 }
 
 .container {
@@ -70,7 +71,7 @@ div.h1 {
     padding: 10px;
     width: 250px;
     background-color: var(--cor1);
-    margin: 20px;
+    margin: 50px;
     border: 2px solid black;
     overflow: hidden;
     border-radius: 20px;
@@ -99,7 +100,7 @@ margin-top: 55px;
 }
 
 .card5 img {
-    margin-top: 30px; 
+    margin-top: 25px; 
     }
 
     .card6 img {
