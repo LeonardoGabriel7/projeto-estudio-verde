@@ -80,7 +80,7 @@ div.img {
 }
 
 div.img img {
-    width: 80%;  /* Ajuste conforme necessário */
+    width: 80%;  
     max-width: 100%;
     height: auto;
     display: block;
@@ -179,10 +179,10 @@ div.h1 {
 
 .card h1 {
     color: white;
+    font-size: 27px;
 }
 
 .container .card1 h1 {
-    color: white;
     font-size: 2em;
     padding-bottom: 50px;
 }
