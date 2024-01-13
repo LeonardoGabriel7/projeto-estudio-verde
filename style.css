@@ -50,7 +50,10 @@ a:hover {
     height: 600px;
     background-color: black;
     color: white;
+    background-image: url(midias/fundo11.png);
 }
+
+
 
 .sobre h1{
     text-align: center;
@@ -61,31 +64,31 @@ a:hover {
 .sobre p {
     font-size: 20px;
     text-align: center;
-    max-width: 800px; /* Defina a largura máxima desejada para o texto */
-    margin: 0 auto; /* Centralize o texto horizontalmente */
+    max-width: 800px;
+    margin: 0 auto;
     padding-top: 30px;
 }
 
 /* Estilo responsivo */
 @media screen and (max-width: 600px) {
     .sobre p {
-        font-size: 16px; /* Reduza o tamanho da fonte para telas menores */
-        padding-top: 30px; /* Ajuste a margem superior conforme necessário */
+        font-size: 16px; 
+        padding-top: 30px; 
     }
 }
 
 .centro-img {
-    text-align: center; /* Centraliza horizontalmente */
-    height: 100vh; /* Opcional: ajuste a altura conforme necessário */
+    text-align: center; 
+    height: 100vh; 
 }
 
 /* Estilo para a imagem */
 .centro-img img {
     width: 350px;
     margin-top: 50px;
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-    max-height: 100%; /* Garante que a imagem não ultrapasse a altura do contêiner */
-    display: inline-block; /* Remove espaços extras abaixo da imagem */
+    max-width: 100%; 
+    max-height: 100%; 
+    display: inline-block; 
 }
 
 main {
@@ -232,14 +235,6 @@ div.h1 {
     box-shadow: 2px 20px 25px rgb(0, 0, 12);
     border-color: rgb(0, 0, 0);
 }
-
-
-
-
-
-
-
-
 
 footer {
     background-color: var(--cor1);
