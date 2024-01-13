@@ -16,10 +16,10 @@
 
 header {
     background-color: var(--cor1);
-    min-height: 150px;
+    min-height: 5px;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 header img {
@@ -85,7 +85,8 @@ div.img img {
     height: auto;
     display: block;
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 58px;
+    margin-top: 40px;
 }
 
 .insta {
