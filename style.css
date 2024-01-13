@@ -54,8 +54,38 @@ a:hover {
 
 .sobre h1{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 60px;
     font-size: 45px;
+}
+
+.sobre p {
+    font-size: 20px;
+    text-align: center;
+    max-width: 800px; /* Defina a largura máxima desejada para o texto */
+    margin: 0 auto; /* Centralize o texto horizontalmente */
+    padding-top: 30px;
+}
+
+/* Estilo responsivo */
+@media screen and (max-width: 600px) {
+    .sobre p {
+        font-size: 16px; /* Reduza o tamanho da fonte para telas menores */
+        padding-top: 30px; /* Ajuste a margem superior conforme necessário */
+    }
+}
+
+.centro-img {
+    text-align: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Opcional: ajuste a altura conforme necessário */
+}
+
+/* Estilo para a imagem */
+.centro-img img {
+    width: 350px;
+    margin-top: 50px;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 100%; /* Garante que a imagem não ultrapasse a altura do contêiner */
+    display: inline-block; /* Remove espaços extras abaixo da imagem */
 }
 
 main {
