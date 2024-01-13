@@ -50,7 +50,8 @@ a:hover {
     height: 600px;
     background-color: black;
     color: white;
-    background-image: url(midias/fundo11.png);
+    background-image: url(midias/fundo20.png);
+    
 }
 
 
@@ -218,13 +219,12 @@ div.h1 {
 
 .card h1 {
     color: white;
-    font-size: 27px;
+    font-size: 25px;
    
     
 }
 
 .container .card1 h1 {
-    font-size: 2em;
     padding-bottom: 50px;
 }
 
