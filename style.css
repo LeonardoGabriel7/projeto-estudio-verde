@@ -73,9 +73,8 @@ a:hover {
 
 
 main {
-    height: 540px;
+    height: 580px;
     background-image: url(midias/fundo2.png);
-    padding-top: 70px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,7 +88,7 @@ main h1 {
     color: white;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 40px; 
+    margin-bottom: 30px; 
 }
 
 div.img {
@@ -97,7 +96,6 @@ div.img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 div.img img {
@@ -106,17 +104,29 @@ div.img img {
     height: auto;
     display: block;
     margin: auto;
-    margin-bottom: 30px;
-    
+    margin-bottom: 40px;
 }
 
-.insta{
+.insta {
     width: 59px;
 }
 
-.insta:hover{
+.insta:hover {
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+/* Adicione a regra de media query para ajustar a altura em telas menores */
+@media (max-width: 768px) {
+    main {
+        height: auto; /* Defina a altura automática para ajustar o conteúdo */
+        padding: 20px; /* Ajuste o preenchimento conforme necessário */
+    }
+
+    main h1 {
+        font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
+        margin-bottom: 10px; /* Ajuste a margem conforme necessário */
+    }
 }
 
 
