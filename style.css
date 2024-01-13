@@ -73,7 +73,7 @@ a:hover {
 
 
 main {
-    height: 550px;
+    height: 540px;
     background-image: url(midias/fundo2.png);
     padding-top: 70px;
     background-size: cover;
@@ -96,7 +96,8 @@ div.img {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; /* Adiciona uma coluna flexível para as imagens */
+    flex-direction: column;
+
 }
 
 div.img img {
@@ -111,6 +112,11 @@ div.img img {
 
 .insta{
     width: 59px;
+}
+
+.insta:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 
