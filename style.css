@@ -50,7 +50,8 @@ a:hover {
     height: 600px;
     background-color: black;
     color: white;
-    background-image: url(midias/fundo22.png);
+    background-image: url(midias/20px.png
+);
     
 }
 
@@ -220,7 +221,6 @@ div.h1 {
 .card h1 {
     color: white;
     font-size: 25px;
-   
     
 }
 
