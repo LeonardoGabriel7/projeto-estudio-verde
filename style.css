@@ -133,7 +133,7 @@ a:hover {
 
 main {
     height: 700px;
-    background-image: url(midias/fundo2.png);
+    background-image: url(midias/fundo100.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -141,6 +141,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        background-image: url(midias/fundo111.png);
+        height: 100vh; /* Ou ajuste conforme necessário para dispositivos móveis */
+    }
 }
 
 main h1 {
