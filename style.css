@@ -71,7 +71,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Centraliza conteúdo verticalmente */
+    justify-content: center; 
 }
 
 .sobre h1 {
@@ -110,7 +110,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .centro-img img {
-        width: 75%; /* Ajuste o tamanho conforme necessário */
+        width: 75%; 
     }
 }
 
@@ -146,7 +146,7 @@ main {
 @media screen and (max-width: 600px) {
     main {
         background-image: url(midias/fundo111.png);
-        height: 100vh; /* Ou ajuste conforme necessário para dispositivos móveis */
+        height: 100vh; 
     }
 }
 
