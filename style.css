@@ -164,7 +164,7 @@ div.img {
 }
 
 div.img img {
-    width: 85%;  
+    width: 100%;  
     max-width: 100%;
     height: auto;
     display: block;
