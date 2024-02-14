@@ -152,8 +152,7 @@ main h1 {
     color: white;
     font-size: 55px;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 30px; 
+    margin-top: 20px; 
 }
 
 div.img {
@@ -170,7 +169,6 @@ div.img img {
     display: block;
     margin: auto;
     margin-bottom: 58px;
-    margin-top: 40px;
 }
 
 .insta {
@@ -190,7 +188,7 @@ div.img img {
     }
 
     main h1 {
-        font-size: 38px; 
+        font-size: 26px; 
         margin-bottom: 10px; 
     }
 }
